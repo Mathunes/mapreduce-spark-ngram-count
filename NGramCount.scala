@@ -25,7 +25,7 @@ object NGramCount {
 		/*Performing mapping and reducing operation*/
 		val counts = ngrams.map(ngram => (ngram.mkString(" "), 1)).reduceByKey{case (x, y) => x + y}.filter{case (x, y) => y >= args(1).toInt}
 
-		/*Saving the result file to the location that we have specified as args[1]*/
+		/*Saving the result file to the location that we have specified as args[3]*/
 		counts.saveAsTextFile(args(3))
 
 	}
