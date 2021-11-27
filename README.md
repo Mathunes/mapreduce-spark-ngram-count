@@ -3,4 +3,4 @@ Contador de ngram desenvolvido como requisito parcial para conclusão da discipl
 
 ## Execução
 
-NGramCount.main(Array("<Valor N do ngram>", "<Número mínimo de ocorrẽncias do ngram>", "<Caminho do arquivo origem>", "<Caminho da pasta de saída>"))
+NGramCount.main(Array("<Valor N do ngram>", "<Número mínimo de ocorrências do ngram>", "<Caminho do arquivo origem>", "<Caminho da pasta de saída>"))
